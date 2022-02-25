@@ -1,0 +1,27 @@
+body{
+  background: #7100ff;
+  color:black !important;
+}
+
+#quote-box{
+  background-color: aliceblue;
+  width: 550px;
+  max-width: 100%;
+  height: 319px;
+  margin: 10em auto;
+  border-radius: 10px;
+  -webkit-box-shadow:0px 0px 70px 0px #f7f7f7 ;
+  -moz-box-shadow:0px 0px 70px 0px #f7f7f7 ;
+  box-shadow:0px 0px 70px 0px #f7f7f7 ;
+}
+
+#text{
+  font-size: 20px;
+  margin-top: 40px;
+  padding:0.5em;
+}
+
+#new-qoute{
+   position: fixed;
+   color: red;
+}
