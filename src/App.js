@@ -24,7 +24,13 @@ function App() {
 
   return (
     <div id="quote-box" >
-      <Qoutes  qoutes ={qoutes}/>   
+      {/* <Qoutes  qoutes ={qoutes}/>    */}
+      {Object.keys(qoutes).map((qoute,id) => (
+            <div key={id}>
+                 <p className=""><i>{qoutes['text']}</i></p> 
+                 <p id="author">{qoutes['author']}</p>  
+            </div>
+        ))}
       <button onClick={getQoute} id="new-qoute">New qoute</button>       
     </div>
        
